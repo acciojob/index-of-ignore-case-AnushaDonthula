@@ -1,17 +1,13 @@
 function indexOfIgnoreCase(s1, s2) {
-  // write your code here
-	function indexOfIgnoreCase(str, subStr) {
-    // Convert both strings to lowercase
-    const lowerStr = str.toLowerCase();
-    const lowerSubStr = subStr.toLowerCase();
-    
-    // Find the index of the first occurrence of lowerSubStr in lowerStr
-    const index = lowerStr.indexOf(lowerSubStr);
-    
-    // Return the index or -1 if not found
-    return index;
-	
-	
+  // Convert both strings to lowercase
+  const lowerS1 = s1.toLowerCase();
+  const lowerS2 = s2.toLowerCase();
+  
+  // Find the index of the first occurrence of lowerS2 in lowerS1
+  const index = lowerS1.indexOf(lowerS2);
+  
+  // Return the index or -1 if not found
+  return index;
 }
 
 // Please do not change the code below
